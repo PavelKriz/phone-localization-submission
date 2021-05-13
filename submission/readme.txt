@@ -1,6 +1,3 @@
-====================IMPORTANT NOTE====================
-This version of submission has no files missing
-
 ====================FILE STRUCTURE====================
 
 readme.txt................brief description of the data storage contents
@@ -16,7 +13,6 @@ text..........................................................thesis text
 More information is placed in dedicated readme.txt files in the directory.
 
 ====================THESIS====================
-The thesis could be viewed in the rendered pdf format in the text directory.
 The exact latex file and all files used to create the pdf file are placed in the src/thesis directory. 
 
 ====================EXECUTABLE APPLICATION====================
@@ -29,6 +25,17 @@ The config.json file is also necessary. It serves the purpose of linking other p
 The default configuration files are placed in the exe/config directory.
 
 There is also a default image database in the directory image_database, which is linked in the default configuration.
+
+====================HOW TO USE THE APPLICATION====================
+(CONSOLE output behavior) 
+The application pops up a console window and image windows.
+To open the next window push any key (when another window would open, it is needed to click back on the current window).
+It can be then closed by pushing the standard X button in the right top corner of the console window.
+
+(FILE output behavior)
+Run the application and all will be done automatically.
+Information about the process's success or any errors is displayed in the console window, which pops up on application start.
+It can be then closed by pushing the standard X button in the right top corner of the console window.
 
 ====================SOURCE CODE====================
 The source code from which the executable binary was build is placed in the src/impl directory.
